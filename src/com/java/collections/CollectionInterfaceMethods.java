@@ -15,12 +15,23 @@ public class CollectionInterfaceMethods {
 
         Collection<String> object = new ArrayList<>();
 
-        // add method
+        // add() method. You can add a Collection object to it
         object.add("Java");
         object.add("Selenium");
-        object.add("APi");
+        object.add("API");
 
-        System.out.println(object);
+        System.out.println("Collection itself -> " + object);
+
+        // addAll(). You can add whole Collection
+        // first we need a different object for it
+
+        Collection<String> companies = new ArrayList<>();
+        companies.add("Apple");
+        companies.add("Microsoft");
+
+        object.addAll(companies);
+
+        System.out.println("Collection after added new  collection -> " + object);
 
     }
 
