@@ -37,7 +37,7 @@ public class ArraysIntroduction {
         // Array does not take large number because
         // There is limit for the array size
         // Following code will give an error
-//        int [] x = new int[12435555577];
+        //  int [] x = new int[12435555577];
 
 
 
