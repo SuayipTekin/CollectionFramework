@@ -39,10 +39,5 @@ public class ArraysIntroduction {
         // Following code will give an error
         //  int [] x = new int[12435555577];
 
-
-
-
-
-
     }
 }
