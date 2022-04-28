@@ -3,3 +3,4 @@ out
 target
 *.iml
 java-collections-framework.iml
+.DS_Store
